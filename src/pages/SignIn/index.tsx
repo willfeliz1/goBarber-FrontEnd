@@ -30,7 +30,7 @@ const SignIn: React.FC = () => (
         <a href="forgot">Esqueci minha senha</a>
       </form>
 
-      <a href="aslogindsa">
+      <a href="login">
         <FiLogIn />
         Criar conta
       </a>
