@@ -29,23 +29,6 @@ export const Content = styled.div`
       margin-bottom: 24px;
     }
 
-    input {
-      background: #232129;
-      border-radius: 10px;
-      border: 2px solid #232129;
-      padding: 16px;
-      width: 100%;
-      color: #F4EDE8;
-
-      &::placeholder {
-        color: #666360;
-      }
-
-      & + input {
-        margin-top: 8px;
-      }
-    }
-
     button {
       background: #ff9000;
       height: 56px;
@@ -64,38 +47,36 @@ export const Content = styled.div`
     }
 
     a {
-      color: #F4EDE8;
+      color: #f4ede8;
       display: block;
       margin-top: 24px;
       text-decoration: none;
       transition: color 0.2s;
 
       &:hover {
-        color: ${shade(0.2, '#f4ede8')}
+        color: ${shade(0.2, '#f4ede8')};
       }
     }
   }
 
   > a {
-      color: #ff9000;
-      display: block;
-      margin-top: 24px;
-      text-decoration: none;
-      transition: color 0.2s;
+    color: #ff9000;
+    display: block;
+    margin-top: 24px;
+    text-decoration: none;
+    transition: color 0.2s;
 
-      display: flex;
-      align-items: center;
+    display: flex;
+    align-items: center;
 
-      svg {
-        margin-right: 16px;
-      }
-
-      &:hover {
-        color: ${shade(0.2, '#ff9000')}
-      }
+    svg {
+      margin-right: 16px;
     }
 
-
+    &:hover {
+      color: ${shade(0.2, '#ff9000')};
+    }
+  }
 `;
 
 export const Background = styled.div`
