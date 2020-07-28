@@ -96,13 +96,11 @@ export const Schedule = styled.div`
 
 export const NextAppointment = styled.div`
   margin-top: 64px;
-
   > strong {
     color: #999591;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
   }
-
   div {
     background: #3e3b47;
     display: flex;
@@ -113,12 +111,12 @@ export const NextAppointment = styled.div`
     position: relative;
 
     &::before {
+      content: '';
       position: absolute;
       height: 80%;
       width: 1px;
       left: 0;
       top: 10%;
-      content: '';
       background: #ff9000;
     }
 
@@ -159,6 +157,10 @@ export const Section = styled.section`
     padding-bottom: 16px;
     margin-bottom: 16px;
   }
+
+  > p {
+    color: #999591;
+  }
 `;
 
 export const Appointment = styled.div`
@@ -173,8 +175,8 @@ export const Appointment = styled.div`
     margin-left: auto;
     display: flex;
     align-items: center;
-    color: #f4ede8;
     width: 70px;
+    color: #f4ede8;
 
     svg {
       color: #ff9000;
